@@ -1,0 +1,42 @@
+ARTIFICIAL INTELLIGENCE AND RAG NOTES
+
+1. MACHINE LEARNING
+Machine learning systems learn patterns from data rather than relying entirely on manually written rules.
+Supervised learning uses labelled examples. Unsupervised learning works without explicit labels. Reinforcement learning learns through interaction and rewards.
+
+2. LARGE LANGUAGE MODELS
+Large language models generate or transform text based on learned statistical patterns.
+A model receives input through a context window and produces output tokens. Model capabilities and context limits vary.
+
+3. TOKENS
+Text is converted into tokens before being processed by a language model.
+A token may represent a word, part of a word, punctuation, or another unit.
+
+4. EMBEDDINGS
+An embedding represents data, often text, as a numerical vector.
+Semantically similar text tends to have vectors that are close according to an appropriate similarity measure.
+Embeddings are used for semantic search, clustering, recommendation, and retrieval-augmented generation.
+
+5. CHUNKING
+Long documents are divided into smaller chunks before embedding.
+Chunk size and overlap affect retrieval quality. Chunks should contain enough context to be meaningful.
+
+6. VECTOR SEARCH
+A vector database or vector index stores embeddings and supports similarity search.
+A query is embedded and compared with stored vectors.
+Common similarity measures include cosine similarity and Euclidean distance.
+
+7. RAG
+Retrieval-augmented generation combines retrieval with language-model generation.
+A typical workflow is: user query, query embedding, vector search, relevant chunks, prompt construction, model inference, and answer generation.
+
+8. HALLUCINATIONS
+A language model can produce unsupported or incorrect information.
+Retrieval can improve grounding when context is relevant and trustworthy, but retrieval does not guarantee correctness.
+
+9. DOCUMENT INGESTION
+An ingestion pipeline may perform file discovery, file type detection, text extraction, encoding handling, normalization, metadata extraction, chunking, embedding, and indexing.
+Metadata can include document ID, title, source, page, section, timestamp, author, and access-control information.
+
+10. AI APPLICATION ENGINEERING
+Production AI systems need input validation, error handling, timeouts, retries, logging, observability, caching, rate limits, security, cost control, evaluation, testing, and versioning.

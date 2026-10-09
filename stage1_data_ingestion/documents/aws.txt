@@ -1,0 +1,41 @@
+AWS CLOUD ENGINEERING NOTES
+
+1. REGIONS AND AVAILABILITY ZONES
+An AWS Region is a geographic area containing multiple Availability Zones.
+Availability Zones are isolated locations within a Region. Multi-AZ architectures can improve availability and resilience.
+
+2. IAM
+AWS Identity and Access Management controls authentication and authorization.
+IAM roles and policies determine which identities or workloads can access AWS resources and which actions are allowed.
+Workloads should generally use IAM roles rather than long-lived credentials embedded in source code.
+
+3. S3
+Amazon S3 is object storage. A bucket contains objects identified by keys.
+S3 is commonly used for documents, backups, data lakes, static assets, logs, and machine-learning datasets.
+
+4. EC2
+Amazon EC2 provides virtual servers. Instances have characteristics such as instance type, storage, networking, and operating-system image.
+
+5. VPC
+Amazon VPC provides an isolated virtual network.
+A VPC can contain public and private subnets, route tables, internet gateways, NAT gateways, security groups, and network ACLs.
+A subnet is associated with a single Availability Zone.
+
+6. LAMBDA
+AWS Lambda runs code without requiring the developer to manage servers directly.
+Lambda functions are event-driven and are commonly used for lightweight processing, APIs, automation, and integration tasks.
+
+7. CLOUDWATCH
+Amazon CloudWatch provides monitoring and observability capabilities.
+Applications can publish metrics and logs, and alarms can be triggered by configured conditions.
+
+8. BEDROCK
+Amazon Bedrock provides managed access to foundation models.
+Applications can use Bedrock for text generation, embeddings, classification, summarization, and other generative AI workloads.
+
+9. AI KNOWLEDGE BASE ARCHITECTURE
+A retrieval-augmented generation workflow can contain document storage, extraction, cleaning, chunking, embedding generation, vector storage, similarity search, retrieval, prompt construction, and model inference.
+
+10. SECURITY AND COST
+Use least privilege for IAM policies. Do not commit sensitive credentials to source code.
+Cost-aware architecture considers storage, compute, data transfer, request volume, and managed-service pricing.

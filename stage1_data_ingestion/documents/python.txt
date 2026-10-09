@@ -1,0 +1,50 @@
+PYTHON ENGINEERING NOTES
+
+1. VARIABLES AND OBJECTS
+Python variables refer to objects. Objects have types and identities.
+Mutable objects such as lists and dictionaries can be changed after creation. Immutable objects such as strings and tuples cannot be modified in place.
+
+2. CORE DATA STRUCTURES
+Lists are ordered, mutable collections.
+Tuples are ordered, immutable sequences.
+Dictionaries store key-value associations and provide fast average-case lookup by key.
+Sets store unique elements and are useful for membership tests and set operations.
+
+3. CONTROL FLOW
+Python provides if, elif, and else for conditional execution.
+The for statement iterates over an iterable. The while statement repeats while a condition remains true.
+The in operator performs membership testing in expressions and participates in iteration in a for statement.
+
+4. FUNCTIONS
+Functions are defined with def. Python functions are first-class objects.
+Functions can accept positional arguments, keyword arguments, defaults, *args, and **kwargs.
+
+5. FILE HANDLING
+Files are commonly managed with a with statement:
+with open("file.txt", "rt", encoding="utf-8") as file:
+    ...
+The with statement uses a context manager to ensure resources are cleaned up appropriately.
+
+6. EXCEPTIONS
+Exceptions represent errors or exceptional conditions. Python provides try, except, else, finally, and raise.
+
+7. MODULES AND PACKAGES
+A module is generally a .py file containing Python definitions and statements. Packages organize modules into larger projects.
+
+8. ITERABLES AND ITERATORS
+Lists, strings, dictionaries, sets, and files are common iterables.
+Iterators maintain iteration state and provide values through next(). The for statement uses the iteration protocol automatically.
+Generators use yield to produce values lazily.
+
+9. OBJECT-ORIENTED PROGRAMMING
+Python supports classes, objects, inheritance, composition, polymorphism, properties, class methods, static methods, and special methods.
+Special methods such as __init__, __str__, __repr__, __iter__, and __getitem__ allow objects to participate in Python protocols.
+
+10. MODERN PYTHON
+Type hints document expected types and improve tooling.
+Dataclasses provide a concise way to define data-oriented classes.
+Decorators modify or wrap functions and classes.
+Async programming uses async and await for cooperative concurrency, especially for I/O-bound applications.
+
+11. PYTHONIC STYLE
+Readable code is preferred over unnecessarily clever code. Common idioms include comprehensions, enumerate(), zip(), unpacking, context managers, and explicit exception handling.

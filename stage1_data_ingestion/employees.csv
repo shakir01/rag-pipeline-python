@@ -1,0 +1,16 @@
+id,name,department,role,salary,skills,projects_completed,remote,years_experience,location,employment_type,join_date
+E001,Aisha Khan,Engineering,Backend Developer,92000,"Python|FastAPI|PostgreSQL",7,yes,5,Auckland,Full-time,2021-03-15
+E002,Daniel Wong,Engineering,DevOps Engineer,105000,"AWS|Docker|Kubernetes|Terraform",9,yes,7,Wellington,Full-time,2019-08-12
+E003,Mia Thompson,Data,Data Analyst,78000,"Python|SQL|PowerBI|Excel",6,no,3,Auckland,Full-time,2023-01-23
+E004,Oliver Smith,Engineering,Frontend Developer,85000,"JavaScript|React|CSS|TypeScript",5,yes,4,Christchurch,Full-time,2022-05-09
+E005,Sofia Patel,Data,ML Engineer,115000,"Python|scikit-learn|TensorFlow|SQL",11,yes,8,Auckland,Full-time,2018-11-19
+E006,Liam Brown,Security,Security Analyst,98000,"Linux|Python|SIEM|Networking",8,no,6,Wellington,Full-time,2020-07-06
+E007,Emma Wilson,Engineering,Network Engineer,97000,"Cisco|Python|AWS|Networking",10,yes,9,Auckland,Full-time,2017-02-13
+E008,Noah Garcia,Support,IT Support Specialist,68000,"Windows|Networking|PowerShell|Microsoft 365",4,no,2,Hamilton,Full-time,2024-02-05
+E009,Grace Lee,Data,Data Engineer,108000,"Python|SQL|AWS|Spark",12,yes,7,Auckland,Full-time,2019-10-21
+E010,Jack Taylor,Security,Cloud Security Engineer,125000,"AWS|Terraform|Python|IAM",13,yes,10,Wellington,Full-time,2016-06-27
+E011,Amelia Jones,Support,Technical Trainer,76000,"Python|Networking|Teaching|Linux",3,yes,4,Auckland,Part-time,2022-09-14
+E012,Henry Martin,Engineering,Software Engineer,101000,"Java|Spring|PostgreSQL|Docker",8,no,6,Christchurch,Full-time,2020-04-20
+E013,Chloe Davis,Data,BI Developer,89000,"SQL|PowerBI|Python|DAX",7,yes,5,Auckland,Full-time,2021-11-08
+E014,William Moore,Security,Penetration Tester,110000,"Linux|Python|BurpSuite|Networking",9,no,7,Wellington,Contract,2019-05-16
+E015,Isla Anderson,Engineering,Cloud Engineer,112000,"AWS|Terraform|Docker|Linux",10,yes,8,Auckland,Full-time,2018-03-02

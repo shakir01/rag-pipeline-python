@@ -1,0 +1,35 @@
+NETWORKING FUNDAMENTALS AND OPERATIONS
+
+1. NETWORK LAYERS
+The OSI model contains seven layers: physical, data link, network, transport, session, presentation, and application.
+The TCP/IP model is commonly described using link, internet, transport, and application layers.
+
+2. IP ADDRESSING
+IPv4 addresses are 32-bit addresses normally written as four decimal octets, for example 192.168.10.25.
+CIDR notation expresses a network prefix, such as 192.168.10.0/24.
+Private IPv4 ranges include 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16.
+IPv6 uses 128-bit addresses.
+
+3. ROUTING
+A router forwards packets between networks. A routing table is used to select a next hop or outgoing interface.
+Static routes are configured manually. Dynamic routing protocols exchange reachability information.
+Common routing protocols include OSPF, BGP, and EIGRP.
+
+4. SWITCHING
+Ethernet switches operate primarily at the data-link layer. A switch learns source MAC addresses and builds a MAC address table.
+VLANs logically separate Layer 2 broadcast domains. Trunk links can carry traffic for multiple VLANs.
+
+5. TCP AND UDP
+TCP is connection-oriented and provides reliable, ordered delivery using acknowledgements, retransmission, and flow control.
+UDP is connectionless and has lower protocol overhead but does not provide TCP-style delivery guarantees.
+
+6. DNS AND DHCP
+DNS translates names into IP addresses and other records.
+DHCP automatically provides configuration such as an IP address, subnet mask, default gateway, and DNS server.
+
+7. TROUBLESHOOTING
+A practical sequence is to verify connectivity, IP configuration, gateway access, remote IP access, DNS resolution, routing, firewall policy, logs, and packet captures.
+Useful tools include ping, traceroute, nslookup, dig, ipconfig, ip, tcpdump, and Wireshark.
+
+8. CLOUD NETWORKING
+Cloud networks use virtual networks, subnets, route tables, security groups, network ACLs, load balancers, and private connectivity.
